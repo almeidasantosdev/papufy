@@ -32,6 +32,13 @@ flowchart LR
 
 React, TypeScript, Node.js, PostgreSQL.
 
-## Por que não há código aqui
+## Recorte de código
 
-O Papufy é um produto em operação. Este repositório existe para mostrar o escopo do trabalho a quem avalia experiência, sem entregar a implementação para cópia.
+`src/` é um exemplo do domínio de busca, escrito para este portfólio. Não é o serviço em produção: não há banco, autenticação, chat nem dados reais.
+
+A busca filtra anúncios por texto, categoria, cidade, estado e tipo (`pedido` ou `perfil`), ignorando acento e maiúsculas.
+
+```bash
+npm install
+npm test
+```
